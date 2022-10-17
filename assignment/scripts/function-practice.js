@@ -25,15 +25,16 @@ console.log(helloName('You'));
 
 
 // 3. Function to add two numbers together & return the result
+// return firstNumber + secondNumber;
+
+let firstNumber = 1;
+let secondNumber = 6;
 
 function addNumbers() {
-  // return firstNumber + secondNumber;
-  let firstNumber = 1;
-  let secondNumber = 6;
   let addNumbers = firstNumber + secondNumber;
   return addNumbers;
 }
-console.log(addNumbers);
+console.log(addNumbers());
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree(){
@@ -43,7 +44,7 @@ function multiplyThree(){
   let multiplyThree = (num0 * num1 * num2);
   return multiplyThree;
 }
-console.log(multiplyThree);
+console.log(multiplyThree());
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
@@ -77,7 +78,7 @@ function getLast() {
     return 'undefined';
   }
 }
-console.log(getLast);
+console.log(getLast());
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
@@ -92,7 +93,7 @@ function find( ){
     return 'false';
   }
 }
-console.log(find);
+console.log(find());
 
 
 // ----------------------

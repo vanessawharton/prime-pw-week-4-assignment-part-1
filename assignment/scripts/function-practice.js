@@ -51,7 +51,7 @@ function isPositive( number ) {
   else if (number <= 0){
     return 'false';
 }
-
+}
 
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome

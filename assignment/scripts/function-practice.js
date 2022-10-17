@@ -89,11 +89,13 @@ let array = [11, 22, 33];
 let value = 22;
 
 function findValue(value, array){
-  if (value){
-    return true;
-  }
-  else{
-    return false;
+  for(let i = 0; i < array.length; i++){
+    if (array[i] > 0){
+      return true;
+    }
+    else{
+      return false;
+    }
   }
 }
 console.log(findValue());

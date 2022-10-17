@@ -88,7 +88,7 @@ console.log(getLast());
 let array = [11, 22, 33];
 let value = 22;
 
-function findValue(22){
+function findValue(){
   for(let i = 0; i < array.length; i++){
     if (array[i] > 0){
       return true;

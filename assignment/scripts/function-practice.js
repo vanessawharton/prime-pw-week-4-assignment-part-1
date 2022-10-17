@@ -18,7 +18,7 @@ console.log('Test - should say "Hello World!"', hello());
 let personalizedName = [];
 
 function helloName(personalizedName) {
-  return "Hello," + personalizedName + "!";
+  return "Hello, " + personalizedName + "!";
 }
 // Remember to call the function to test
 console.log(helloName('You'));
@@ -33,7 +33,7 @@ function addNumbers() {
   let addNumbers = firstNumber + secondNumber;
   return addNumbers;
 }
-addNumbers();
+
 console.log(addNumbers);
 
 // 4. Function to multiply three numbers & return the result
@@ -44,7 +44,7 @@ function multiplyThree(){
   let multiplyThree = (num0 * num1 * num2);
   return multiplyThree;
 }
-multiplyThree();
+
 console.log(multiplyThree);
 
 // 5. Function that will return true if a number is positive, 

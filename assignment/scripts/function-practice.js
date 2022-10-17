@@ -16,7 +16,7 @@ console.log('Test - should say "Hello World!"', hello());
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName( name ) {
   let name = YOU;
-  return 'Hello name!';
+  return 'Hello ', name, '!';
 }
 // Remember to call the function to test
 helloName();

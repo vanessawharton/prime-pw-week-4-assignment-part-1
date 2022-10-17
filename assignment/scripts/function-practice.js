@@ -22,7 +22,7 @@ console.log(helloName);
 
 
 // 3. Function to add two numbers together & return the result
-function addNumbers( firstNumber + secondNumber) {
+function addNumbers( firstNumber+secondNumber) {
   // return firstNumber + secondNumber;
   return addNumbers;
 }

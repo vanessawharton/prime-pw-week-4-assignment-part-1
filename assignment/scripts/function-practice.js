@@ -33,7 +33,11 @@ function addNumbers() {
 console.log(addNumbers);
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( num0 * num1 * num2){
+function multiplyThree(){
+  let multiplyThree = num0 * num1 * num2;
+  let num0 = 1;
+  let num1 = 3;
+  let num2= 5;
   return multiplyThree;
 }
 console.log(multiplyThree);

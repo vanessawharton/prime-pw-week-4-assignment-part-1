@@ -90,7 +90,7 @@ let value = 16;
 
 function findValue(){
   for(let i = 0; i < array.length; i++){
-    if (array[i] = value){
+    if (array[i] === value){
       return true;
     }
     else{

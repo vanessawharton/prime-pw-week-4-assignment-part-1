@@ -15,9 +15,11 @@ console.log('Test - should say "Hello World!"', hello());
 // 2. Function to return an personalized hello, using the `name` argument.
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName( name ) {
+  let name = YOU;
   return 'Hello name!';
 }
 // Remember to call the function to test
+helloName();
 console.log(helloName);
 
 
@@ -30,6 +32,7 @@ function addNumbers() {
   let addNumbers = firstNumber + secondNumber;
   return addNumbers;
 }
+addNumbers();
 console.log(addNumbers);
 
 // 4. Function to multiply three numbers & return the result
@@ -40,6 +43,7 @@ function multiplyThree(){
   let num2 = 5;
   return multiplyThree;
 }
+multiplyThree();
 console.log(multiplyThree);
 
 // 5. Function that will return true if a number is positive, 

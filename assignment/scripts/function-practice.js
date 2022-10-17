@@ -88,7 +88,7 @@ console.log(getLast());
 let array = [11, 22, 33];
 let value = 22;
 
-function find(value){
+function findValue(value, array){
   if (value){
     return true;
   }
@@ -96,7 +96,7 @@ function find(value){
     return false;
   }
 }
-console.log(find());
+console.log(findValue());
 
 
 // ----------------------

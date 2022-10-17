@@ -18,7 +18,7 @@ console.log('Test - should say "Hello World!"', hello());
 let personalizedName = [];
 
 function helloName(personalizedName) {
-  return 'Hello, personalizedName!';
+  return "Hello," + personalizedName + "!";
 }
 // Remember to call the function to test
 console.log(helloName('You'));

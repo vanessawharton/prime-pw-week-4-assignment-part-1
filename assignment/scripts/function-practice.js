@@ -22,8 +22,10 @@ console.log(helloName);
 
 
 // 3. Function to add two numbers together & return the result
-function addNumbers( firstNumber+secondNumber) {
+function addNumbers( firstNumber + secondNumber) {
   // return firstNumber + secondNumber;
+  let firstNumber = 1
+  let secondNumber = 6
   return addNumbers;
 }
 console.log(addNumbers);

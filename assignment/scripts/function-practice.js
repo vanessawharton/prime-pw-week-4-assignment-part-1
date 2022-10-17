@@ -84,14 +84,16 @@ console.log(getLast());
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
-function find( ){
-  let array = [11, 22, 33];
-  let value = 22;
+
+let array = [11, 22, 33];
+let value = 22;
+
+function find(value){
   if (value){
-    return 'true';
+    return true;
   }
-  else if (value){
-    return 'false';
+  else{
+    return false;
   }
 }
 console.log(find());

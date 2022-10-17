@@ -37,10 +37,12 @@ function addNumbers() {
 console.log(addNumbers());
 
 // 4. Function to multiply three numbers & return the result
+
+let num0 = 1;
+let num1 = 3;
+let num2 = 5;
+
 function multiplyThree(){
-  let num0 = 1;
-  let num1 = 3;
-  let num2 = 5;
   let multiplyThree = (num0 * num1 * num2);
   return multiplyThree;
 }
@@ -48,12 +50,11 @@ console.log(multiplyThree());
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
-function isPositive() {
-  let number = 0
+function isPositive(number) {
   if ( number > 0 ){
     return true;
   }
-  else if (number <= 0){
+  else {
     return false;
   }
 }

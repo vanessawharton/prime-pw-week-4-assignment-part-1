@@ -18,7 +18,8 @@ console.log('Test - should say "Hello World!"', hello());
 let Name = 'YOU'
 
 function helloName() {
-  return 'Hello,' 'Name', '!';
+  let personalHello = 'Hello'
+  return ('Hello,' 'Name', '!');
 }
 // Remember to call the function to test
 console.log(helloName());

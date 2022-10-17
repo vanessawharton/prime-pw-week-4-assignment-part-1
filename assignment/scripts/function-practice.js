@@ -86,7 +86,7 @@ console.log(getLast());
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 
 let array = [11, 22, 33];
-let value = 22;
+let value = 16;
 
 function findValue(){
   for(let i = 0; i < array.length; i++){

@@ -27,26 +27,17 @@ console.log(helloName('You'));
 // 3. Function to add two numbers together & return the result
 // return firstNumber + secondNumber;
 
-let firstNumber = 1;
-let secondNumber = 6;
-
-function addNumbers() {
-  let addNumbers = firstNumber + secondNumber;
-  return addNumbers;
+function addNumbers(firstNumber, secondNumber) {
+  return firstNumber + secondNumber;
 }
-console.log(addNumbers());
+console.log(addNumbers(1,6));
 
 // 4. Function to multiply three numbers & return the result
 
-let num0 = 1;
-let num1 = 3;
-let num2 = 5;
-
-function multiplyThree(){
-  let multiplyThree = (num0 * num1 * num2);
-  return multiplyThree;
+function multiplyThree(num0, num1, num2){
+  return (num0 * num1 * num2);
 }
-console.log(multiplyThree());
+console.log(multiplyThree(1,3,5));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
@@ -68,27 +59,17 @@ console.log( 'isPositive - should say false', isPositive(-3) );
 
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
-function getLast() {
-  let array = [11, 22, 33];
-  let lastNumber = array[array.length -1];
-  let getLast = lastNumber;
-  if (lastNumber){
-    return getLast;
-  }
-  else if (lastNumber){
-    return 'undefined';
-  }
+function getLast(array) {
+    return array[array.length -1]
 }
-console.log(getLast());
+console.log('Testing getLast, should return 33:', getLast([11, 22, 33]));
+console.log('Testing getLast, should return undefined:', getLast([]));
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 
-let array = [11, 22, 33];
-let value = 16;
-
-function findValue(){
+function findValue(value, array){
   for(let i = 0; i < array.length; i++){
     if (array[i] === value){
       return true;
@@ -98,7 +79,7 @@ function findValue(){
     }
   }
 }
-console.log(findValue());
+console.log(findValue(16, [11, 22, 33]));
 
 
 // ----------------------
